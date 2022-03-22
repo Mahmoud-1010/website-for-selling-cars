@@ -1,0 +1,362 @@
+
+
+
+/* start upper bar*/
+.upper-bar{background-color: black;
+    ;color: #fff;
+    padding: 10px
+}
+
+/* end upper bar*/
+/*start navbar*/
+.nav-up{background-color:rgba(0,0,0,.9);
+    width: 100%;
+    box-sizing: border-box;
+    overflow: visible;
+    height: 70px;
+    padding: 0px 0 17px;
+    transition: all 300ms linear;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.nav{font-size: 25px;
+    text-transform: uppercase;
+    margin-left: 15px;
+    color: black;
+    }
+
+.navbar-light .navbar-nav .active>.nav-link{color:#f8f9fa}
+.navbar-brand img{width: 130px;}
+.navbar-light .navbar-nav .nav-link{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-left: 15px;
+    color:white
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: red
+}
+
+
+/*end navbar*/
+/*start slider*/
+.slider{background: #ddd;height: 100vh;}
+.slider .carousel-indicators li{
+    height: 8px;
+    cursor: pointer;
+}
+.slider .carousel-inner{
+    display: flex;
+    align-items: center;
+}
+.slider .carousel-inner .overlayheader{
+    position: absolute;
+    left: 10%;
+    z-index: 3;
+    color: white;
+}
+.slider .carousel-inner .overlayheader h1{
+    font-size: 50px
+}
+.slider .carousel-inner .overlayheader p{
+    font-size: 30px
+}
+
+.slider .carousel-inner .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 2;
+    
+}
+.slider .carousel-item{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slider .carousel-one{background-image: url(../img/slider01.jpg)}
+.slider .carousel-two{background-image: url(../img/slider02.jpg)}
+.slider .carousel-three{background-image: url(../img/slider03.jpg)}
+/*end slider*/
+/*start Service*/
+
+.Service {
+    background: black;
+    padding-bottom: 50px;
+}
+.Service h1{
+    color: #ff5616;
+    font-family: 'Unlock', cursive;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+.Service i{
+    border: 2px solid #909090;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    color: #ff5616 ;
+}
+.Service i:hover{
+    background: #ff5616;
+    border: 1px solid #ff5616;
+    color: #fff;
+}
+.Service .Box h3{
+    color: #ff5616;
+    font-family: 'Unlock', cursive;
+}
+.Service .Box p{
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff
+}
+
+
+/*end Service*/
+/*start overview*/
+
+
+/*end overview*/
+/*start featured cars*/
+
+.FEATUREDCARS{
+    color: #ff5616;
+    font-family: 'Unlock', cursive;
+    margin: 60px 0;
+}
+.Feature1 , .Feature2 , .Feature3 , .Feature4 , .Feature5 , .Feature6 ,
+.Feature7 , .Feature8 , .Feature9 , .Feature10 , .Feature11 , .Feature12{
+    border: 3px solid #ff5616;
+    border-radius: 2%;
+    margin-bottom: 25px;
+}
+.Feature1 .Image .Img1 , .Feature2 .Image .Img1, .Feature3 .Image .Img1 ,
+.Feature4 .Image .Img1 , .Feature5 .Image .Img1 , .Feature6 .Image .Img1 ,
+.Feature7 .Image .Img1 , .Feature8 .Image .Img1, .Feature9 .Image .Img1 ,
+.Feature10 .Image .Img1 , .Feature11 .Image .Img1 , .Feature12 .Image .Img1{
+    width: 100%;
+}
+.Feature1 .Image .Img2 , .Feature2 .Image .Img2, .Feature3 .Image .Img2 ,
+.Feature4 .Image .Img2 , .Feature5 .Image .Img2 , .Feature6 .Image .Img2 ,
+.Feature7 .Image .Img2 , .Feature8 .Image .Img2, .Feature9 .Image .Img2 ,
+.Feature10 .Image .Img2 , .Feature11 .Image .Img2 , .Feature12 .Image .Img2{
+    display: none;width: 100%;
+}
+.Feature1 .Wor h3 , .Feature2 .Wor h3 , .Feature3 .Wor h3 ,
+.Feature4 .Wor h3, .Feature5 .Wor h3 , .Feature6 .Wor h3 ,
+.Feature7 .Wor h3 , .Feature8 .Wor h3 , .Feature9 .Wor h3 ,
+.Feature10 .Wor h3, .Feature11 .Wor h3 , .Feature12 .Wor h3{
+    color: #ff5616;
+    font-family: 'Unlock', cursive;
+}
+.Feature1 .RightList ul , .Feature2 .RightList ul , .Feature3 .RightList ul ,
+.Feature4 .RightList ul , .Feature5 .RightList ul , .Feature6 .RightList ul ,
+.Feature7 .RightList ul , .Feature8 .RightList ul , .Feature9 .RightList ul ,
+.Feature10 .RightList ul , .Feature11 .RightList ul , .Feature12 .RightList ul{
+    list-style-type: none;
+    font-weight: bold;
+    color: #ff5616
+}
+.Feature1 .Wor .BUT1 , .Feature2 .Wor .BUT1 , .Feature3 .Wor .BUT1,
+.Feature4 .Wor .BUT1 , .Feature5 .Wor .BUT1 , .Feature6 .Wor .BUT1 ,
+.Feature7 .Wor .BUT1 , .Feature8 .Wor .BUT1 , .Feature9 .Wor .BUT1,
+.Feature10 .Wor .BUT1 , .Feature11 .Wor .BUT1 , .Feature12 .Wor .BUT1{
+    margin: 20px 0;
+    background: #fff;
+    width: 180px;
+    padding: 10px 0;
+    font-weight: bold;
+    color: #ff5616;
+    font-size: 14px;
+    border: 1px solid #ff5616;
+    border-radius: 10px;
+    -webkit-trastion: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transtion: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.Feature1 .Wor .BUT2 , .Feature2 .Wor .BUT2 , .Feature3 .Wor .BUT2,
+.Feature4 .Wor .BUT2 , .Feature5 .Wor .BUT2 , .Feature6 .Wor .BUT2 ,
+.Feature7 .Wor .BUT2 , .Feature8 .Wor .BUT2 , .Feature9 .Wor .BUT2,
+.Feature10 .Wor .BUT2 , .Feature11 .Wor .BUT2 , .Feature12 .Wor .BUT2{
+    color: #fff;
+    border: 1px solid #909090;
+    background: #ff5616;
+    margin: 20px 0;
+    width: 180px;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
+    display: none;
+    -webkit-trastion: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transtion: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.FEATUREDCARSBUTTON button{
+    color: #ff5616;
+    border: 2px solid #ff5616;
+    background: #fff;
+    margin: 20px 0;
+    width: 180px;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
+    -webkit-trastion: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transtion: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.FEATUREDCARSBUTTON button:hover{
+    color: #fff;
+    border: 1px solid #ff5616;
+    background: #ff5616;
+}
+.HIDEEN{
+    display: none
+}
+
+/*end featured cars*/
+
+/*start latest post*/
+
+
+.LATESTBLOGS h1{
+    color: #ff5616;
+    font-family: 'Unlock', cursive;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.LATESTBLOGS {
+    background: black;
+    padding-top: 20px ;
+    margin-top: 20px;
+    padding-bottom: 20px
+}
+.Under , .UnderIcons {
+    display: inline
+}
+.UnderIcons {
+    float: right;
+    padding-right: 30px;
+}
+.Part1 img ,.Part2 img{
+    width: 100%
+}
+.Part1 , .Part2{
+    border: 2px solid #909090;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.Part1 .Parag h3 , .Part2 .Parag h3{
+    color: #ff5616;
+    font-family: 'Unlock', cursive;
+}
+.Part1 .Parag , .Part2 .Parag {
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    bottom: 40px;
+    margin-top: 80px;
+}
+.Part1:hover , .Part2:hover{
+    border: 2px solid #ff5616
+}
+.Part1 .Under span:hover , .UnderIcons span:hover , .UnderIcons span i:hover ,
+.Part2 .Under span:hover , .UnderIcons span:hover , .UnderIcons span i:hover{
+    cursor: pointer;
+    color: #ff5616;
+}
+
+
+
+/*end latest post*/
+
+/*start contact us*/
+
+
+.Contact {
+    background: url("../img/BC.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.ContactUS{
+    background: rgba(49, 55, 61, .6);
+    height: 100%;
+    width: 100%;
+}
+ .container .Con h1{
+    color: #ff5616;
+    font-family: 'Unlock', cursive;
+    margin: 0px;
+    
+}
+.container .Con p{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Ranga', cursive;
+    font-size: 30px;
+}
+.Con{
+    padding-bottom: 30px
+}
+ 
+/*end contact us*/
+
+/*start footer*/
+
+ .FOOTER{
+    background: black;
+    padding: 20px 0 ;
+ }
+ .FOOTER .part1 img{
+    width: 130px;
+    padding-top: 12px;
+    padding-bottom: 22px;
+ }
+ .FOOTER i{
+    color: #ff5616;
+    padding-right: 10px;
+ }
+.FOOTER .part1 p , .FOOTER .part3 p , .FOOTER .part4 p{
+    line-height: 30px;
+}
+ .FOOTER .part1 p , .FOOTER .part2 p , .FOOTER .part3 p , .FOOTER .part4 p{
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff
+ }
+ .FOOTER .part1 h3 , .FOOTER .part2 h3 , .FOOTER .part3 h3 , .FOOTER .part4 h3{
+    color: #ff5616;
+    font-family: 'Unlock', cursive;
+    padding-bottom: 20px;
+ }
+ .FOOTER .part4 form {
+    padding-top: 10px;
+ }
+ .Copyright h4{
+    color: #ff5616;
+    font-family: 'Unlock', cursive;
+    padding-top: 20px;
+ }
+ 
+/*end footer*/
